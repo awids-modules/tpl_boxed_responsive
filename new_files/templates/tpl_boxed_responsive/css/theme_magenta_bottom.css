@@ -1,0 +1,45 @@
+/* theme_magenta_bottom.css - #a70083 */
+
+/* CSS from: jquery.colorbox.css */
+#cboxPrevious:hover, 
+#cboxNext:hover,
+#cboxClose:hover {
+  color: #a70083;
+}
+
+/* CSS from: jquery.easyTabs.css */
+.resp-tab-active {
+  color: #a70083;
+}
+
+/* CSS from: jquery.sumoselect.css */
+.SumoSelect > .optWrapper > .options li.opt.selected {
+  color: #a70083;
+}
+
+/* own css for Produkt- und Attribut Lagerampel */
+.options_row_selection .options_selection label {position:relative;}
+.options_selection_price {text-align:right;}
+.options_row_selection .options_selection label .label_row2 {display:block !important;}
+.traff-light {/*float:right;clear:both;*/}
+.options_row_selection .options_selection label .label_row2 .traff-light {padding-right:2px; font-style:normal;}
+.options_row_selection .options_selection label .label_row1 .options_selection_price {padding-right:2px;}
+.tl {display:inline-block; margin:0 2px; width:8px; height:8px; border-radius:25%;}
+.red-tl {background:#A20000;border:1px solid #333;}
+.yell-tl {background:yellow;border:1px solid #333;}
+.green-tl {background:#116C10;border:1px solid #333;}
+.zero-tl {background:#eee;border:1px solid #333;}
+.red-txt {color:#A20000;}
+.green-txt {color:#116C10;}
+.yell-txt {color:#333333 !important;}
+.pd_inforow .stock_title {font-weight:bold;}
+.options_row_selection .options_selection label .nr-tooltip {position:absolute;top:45%;right:90%;visibilty:hidden;font-size:12px;color:#fff;padding:0 5px;border-radius:5px;white-space:nowrap;opacity:0;z-index:1;transition:right 0.6s ease 0.1s, opacity 1s ease 0.1s;}
+html:not(.touch) .options_row_selection .options_selection label:hover .nr-tooltip {right:30%;visibilty:visible;opacity:1;}
+
+/* own css for categoriesFlag */
+.categoryFlag1 {font-weight: 700;background: #5cb85c;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
+.categoryFlag2 {font-weight: 700;background: #f0ad4e;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
+.categoryFlag3 {font-weight: 700;background: #d9534f;font-size: 9px;padding: 0 4px;border-radius: 4px;color: #fff;position:absolute;right:10px;}
+ul#categorymenu li a:hover .categoryFlag1,
+ul#categorymenu li a:hover .categoryFlag2,
+ul#categorymenu li a:hover .categoryFlag3 {background:transparent;color:#ffffff;}
